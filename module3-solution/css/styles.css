@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  color: #222;
+  font-family: cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #adadad;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: auto;
+}
+.navbar-brand h1 { /* Food LLC */
+  color: #222;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+}
+
+div#main-content>div>h1 {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  text-align: center;
+  color: inherit;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  color: #fff;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+footer section > span, footer section > span {
+  font-size: 1.3em;
+  line-height: 2;
+}
+/* END FOOTER */
+
+/* Menu Tiles */
+div#menu-items p {
+  color: #222;
+}
+
+div#menu-items h2 {
+  font-weight: 900;
+}
+
+div#menu-items>div.row {
+  margin-bottom: 20px;
+  background: #adadad;
+}
+/* END Menu */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+}
